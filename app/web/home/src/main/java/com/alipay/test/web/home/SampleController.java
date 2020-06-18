@@ -4,6 +4,7 @@
  */
 package com.alipay.test.web.home;
 
+import com.alipay.sofa.runtime.api.annotation.AppConfig;
 import com.alipay.sofa.runtime.api.aware.AppConfigurationAware;
 import com.alipay.sofa.runtime.api.component.AppConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,22 +17,23 @@ import org.springframework.ui.ModelMap;
  * A sample controller.
  */
 @Controller
-public class SampleController implements AppConfigurationAware {
+public class SampleController {
 
 	@Autowired
 	private SpringBean springBean;
 
-	private AppConfiguration appConfiguration;
+//	@AppConfig
+//	private AppConfiguration appConfiguration;
+//
+//	@RequestMapping(value="/sample",method = RequestMethod.GET)
+//	public void doGet(ModelMap modelMap) {
+//       modelMap.put("hello",appConfiguration.getPropertyValue("config"));
+//	}
+	@AppConfig("hello")
+	private String s;
 
 	@RequestMapping(value="/sample",method = RequestMethod.GET)
 	public void doGet(ModelMap modelMap) {
-
-       modelMap.put("hello",appConfiguration.getPropertyValue("config"));
-
-	}
-
-	@Override
-	public void setAppConfiguration(AppConfiguration appConfiguration) {
-		this.appConfiguration = appConfiguration;
+		modelMap.put("hello",s);
 	}
 }

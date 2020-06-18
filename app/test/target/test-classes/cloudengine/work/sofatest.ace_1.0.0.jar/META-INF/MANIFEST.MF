@@ -105,8 +105,8 @@ DynamicImport-Package: com.alipay.drm.client.*,com.alipay.config.clien
  f.notify.client,com.alipay.hessian.generic.*,org.jboss.resteasy.spi.*
  ,com.alipay.sofa.service.drm,com.alipay.sofa.rpc.elastic.api,net.sf.s
  ojo.*,com.alipay.sofa.rpc.common,com.alipay.lookout.api.info.*,com.al
- ipay.common.tracer,com.alipay.sofa.service.drm.*,com.alipay.lookout.a
- pi.info,org.springmodules.validation.*,com.alipay.common.event,com.al
+ ipay.common.tracer,com.alipay.lookout.api.info,com.alipay.sofa.servic
+ e.drm.*,org.springmodules.validation.*,com.alipay.common.event,com.al
  ipay.sofa.service.api.annotation.drm,com.alipay.sofa.middleware.switc
  her.*,com.alipay.lookout.api,com.alipay.sofa.rest.spring.*,com.sun.el
  ,com.alipay.sofa.rest.spring,org.apache.commons.collections.*,com.ali
