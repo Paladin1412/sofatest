@@ -34,5 +34,7 @@
     #end
 
     <sofa:reference id="sampleService" interface="com.alipay.test.SampleService"/>
+    <sofa:reference id="sampleServiceTwo" interface="com.alipay.test.SampleService" unique-id="Two"/>
 <!--    sofa reference interface和sofa service interface相同，sofa reference id就是这里的bean id-->
+<!--    sofa reference id相当于bean id，可以作为@Qualifier的参数-->
 </beans>
