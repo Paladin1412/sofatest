@@ -106,8 +106,6 @@
     <orderEntry type="module" module-name="sofatest-common-service-integration" />
     <orderEntry type="module" module-name="sofatest-common-service-facade" />
     <orderEntry type="module" module-name="sofatest-common-dal" />
-    <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-runtime-api:4.13.2" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:17.0" level="project" />
     <orderEntry type="library" name="Maven: commons-discovery:commons-discovery:0.4" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-jexl:commons-jexl:1.1" level="project" />
@@ -162,6 +160,8 @@
     <orderEntry type="library" name="Maven: com.lmax:disruptor:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-jcl:2.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.alipay.sofa:sofa-runtime-api:4.13.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:17.0" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.session:alipay-session-core:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa.common:sofa-common-tools:1.0.14" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:hessian:3.3.3" level="project" />

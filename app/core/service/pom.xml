@@ -27,6 +27,11 @@
             <artifactId>sofatest-core-model</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-runtime-api</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
