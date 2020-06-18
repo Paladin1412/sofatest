@@ -5,6 +5,7 @@
 package com.alipay.test.web.home;
 
 import com.alipay.sofa.runtime.api.annotation.AppConfig;
+import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.aware.AppConfigurationAware;
 import com.alipay.sofa.runtime.api.component.AppConfiguration;
 import com.alipay.test.SampleService;
@@ -21,8 +22,7 @@ import org.springframework.ui.ModelMap;
 @Controller
 public class SampleController {
 
-	@Autowired
-	@Qualifier("sampleService")
+	@SofaReference(uniqueId = "Two")
 	private SampleService s;
 
 	@RequestMapping(value="/sample",method = RequestMethod.GET)

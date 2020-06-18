@@ -4,13 +4,16 @@
  */
 package com.alipay.test;
 
+import com.alipay.sofa.runtime.api.annotation.SofaService;
+
 /**
  * @author xufan.sxf
  * @version : SampleServiceImplTwo.java, v 0.1 2020-06-18 10:39 xufan.sxf Exp $ 
  */
+@SofaService(uniqueId = "Two")
 public class SampleServiceImplTwo implements SampleService {
     @Override
     public String hello() {
-        return "service unique-id";
+        return "service annotation unique-id";
     }
 }

@@ -10,8 +10,5 @@
          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"
 	default-autowire="byName">
 	<bean id="sampleService" class="com.alipay.test.SampleServiceImpl"/>
-	<sofa:service ref="sampleService" interface="com.alipay.test.SampleService"/>
-<!--	sofa service ref 和 bean id 相同 bean class就是具体的类，实现了 sofa service interface-->
-	<bean id="sampleServiceTwo" class="com.alipay.test.SampleServiceImplTwo"/>
-	<sofa:service ref="sampleServiceTwo" interface="com.alipay.test.SampleService" unique-id="Two"/>
+	<bean id="sampleService2" class="com.alipay.test.SampleServiceImplTwo"/>
 </beans>

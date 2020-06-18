@@ -33,7 +33,4 @@
         <bean id="springBean" class="com.alipay.test.web.home.SpringBeanImplTwo"/>
     #end
 
-    <sofa:reference id="sampleService" interface="com.alipay.test.SampleService"/>
-    <sofa:reference id="sampleServiceTwo" interface="com.alipay.test.SampleService" unique-id="Two"/>
-<!--    sofa reference interface和sofa service interface相同，sofa reference id就是这里的bean id-->
 </beans>
