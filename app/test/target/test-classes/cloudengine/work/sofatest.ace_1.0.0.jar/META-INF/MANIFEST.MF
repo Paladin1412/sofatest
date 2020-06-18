@@ -74,8 +74,8 @@ Extended-Xmls:
 DynamicImport-Package: com.alipay.drm.client.*,com.alipay.config.clien
  t.*,com.alipay.sofa.dynamic.module.api,com.alipay.sofa.rest.api,com.a
  lipay.sofa.runtime.api.*,com.alipay.ambush.chain.*,com.alibaba.biz.co
- mmand,org.apache.commons.httpclient,com.alipay.antvip,org.jboss.reste
- asy.annotations.providers.multipart,javax.validation.*,com.alipay.sof
+ mmand,org.apache.commons.httpclient,org.jboss.resteasy.annotations.pr
+ oviders.multipart,com.alipay.antvip,javax.validation.*,com.alipay.sof
  a.rpc.api.binding.xfire,com.alipay.hessian.generic,com.alipay.lookout
  .common,com.alipay.sofa.middleware.switcher,com.alipay.lookout.api.co
  mposite.*,com.alipay.zoneclient.internal,org.springframework.*,com.al
@@ -102,11 +102,11 @@ DynamicImport-Package: com.alipay.drm.client.*,com.alipay.config.clien
  on.client,com.alipay.remoting.*,org.apache.tools.ant,com.alipay.route
  client.api,com.taobao.notify,com.alipay.zoneclient.zoneapi,com.alipay
  .lookout.common.top,com.alibaba.common.resourcebundle.*,com.taobao.hs
- f.notify.client,com.alipay.hessian.generic.*,org.jboss.resteasy.spi.*
+ f.notify.client,org.jboss.resteasy.spi.*,com.alipay.hessian.generic.*
  ,com.alipay.sofa.service.drm,com.alipay.sofa.rpc.elastic.api,net.sf.s
  ojo.*,com.alipay.sofa.rpc.common,com.alipay.lookout.api.info.*,com.al
- ipay.common.tracer,com.alipay.lookout.api.info,com.alipay.sofa.servic
- e.drm.*,org.springmodules.validation.*,com.alipay.common.event,com.al
+ ipay.common.tracer,com.alipay.sofa.service.drm.*,com.alipay.lookout.a
+ pi.info,org.springmodules.validation.*,com.alipay.common.event,com.al
  ipay.sofa.service.api.annotation.drm,com.alipay.sofa.middleware.switc
  her.*,com.alipay.lookout.api,com.alipay.sofa.rest.spring.*,com.sun.el
  ,com.alipay.sofa.rest.spring,org.apache.commons.collections.*,com.ali

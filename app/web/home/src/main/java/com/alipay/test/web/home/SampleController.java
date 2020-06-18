@@ -7,6 +7,7 @@ package com.alipay.test.web.home;
 import com.alipay.sofa.runtime.api.annotation.AppConfig;
 import com.alipay.sofa.runtime.api.aware.AppConfigurationAware;
 import com.alipay.sofa.runtime.api.component.AppConfiguration;
+import com.alipay.test.SampleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,20 +21,10 @@ import org.springframework.ui.ModelMap;
 public class SampleController {
 
 	@Autowired
-	private SpringBean springBean;
-
-//	@AppConfig
-//	private AppConfiguration appConfiguration;
-//
-//	@RequestMapping(value="/sample",method = RequestMethod.GET)
-//	public void doGet(ModelMap modelMap) {
-//       modelMap.put("hello",appConfiguration.getPropertyValue("config"));
-//	}
-	@AppConfig("hello")
-	private String s;
+	private SampleService s;
 
 	@RequestMapping(value="/sample",method = RequestMethod.GET)
 	public void doGet(ModelMap modelMap) {
-		modelMap.put("hello",s);
+		modelMap.put("hello",s.hello());
 	}
 }
