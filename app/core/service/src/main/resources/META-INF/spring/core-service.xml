@@ -9,5 +9,8 @@
          http://schema.alipay.com/sofa/schema/service http://schema.alipay.com/sofa/sofa-service-4-0-0.xsd
          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"
 	default-autowire="byName">
+	<bean class="com.alipay.test.SampleServiceImpl"/>
+	<bean class="com.alipay.test.SampleServiceImplTwo"/>
 	<bean class="com.alipay.test.SampleHealthCheckCallBack"/>
+	<bean class="com.alipay.test.SampleAfterHealthCheckCallBack"/>
 </beans>
