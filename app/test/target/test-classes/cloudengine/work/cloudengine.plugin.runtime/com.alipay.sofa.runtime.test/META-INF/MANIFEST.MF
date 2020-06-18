@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+plugin_id: plugin-region.com.alipay.sofa.runtime.test
+Plugin-Location: D:\sofatest\app\test\target\test-classes\cloudengine\
+ work\cloudengine.plugin.runtime\com.alipay.sofa.runtime.test
+Bundle-SymbolicName: plugin-region.com.alipay.sofa.runtime.test
+Bundle-Version: 1.0.0
+Modules-Classpath: D:\sofatest\app\test\target\test-classes\cloudengin
+ e\plugins\sofa-runtime-test
+Plugin-Module: plugin-region.com.alipay.sofa.runtime.test
+

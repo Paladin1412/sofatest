@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/core/service2/service2.iml" filepath="$PROJECT_DIR$/app/core/service2/service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sofatest.iml" filepath="$PROJECT_DIR$/sofatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/biz/service-impl/sofatest-biz-service-impl.iml" filepath="$PROJECT_DIR$/app/biz/service-impl/sofatest-biz-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/biz/shared/sofatest-biz-shared.iml" filepath="$PROJECT_DIR$/app/biz/shared/sofatest-biz-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/common/dal/sofatest-common-dal.iml" filepath="$PROJECT_DIR$/app/common/dal/sofatest-common-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/common/service/facade/sofatest-common-service-facade.iml" filepath="$PROJECT_DIR$/app/common/service/facade/sofatest-common-service-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/common/service/integration/sofatest-common-service-integration.iml" filepath="$PROJECT_DIR$/app/common/service/integration/sofatest-common-service-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/common/util/sofatest-common-util.iml" filepath="$PROJECT_DIR$/app/common/util/sofatest-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/core/model/sofatest-core-model.iml" filepath="$PROJECT_DIR$/app/core/model/sofatest-core-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/core/service/sofatest-core-service.iml" filepath="$PROJECT_DIR$/app/core/service/sofatest-core-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/test/sofatest-test.iml" filepath="$PROJECT_DIR$/app/test/sofatest-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/web/home/sofatest-web-home.iml" filepath="$PROJECT_DIR$/app/web/home/sofatest-web-home.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+DynamicImport-Package: com.alipay.lookout.api,
+ com.alipay.lookout.api.*,
+ com.alipay.lookout.api.composite,
+ com.alipay.lookout.api.composite.*,
+ com.alipay.lookout.api.info,
+ com.alipay.lookout.api.info.*,
+ com.alipay.lookout.common,
+ com.alipay.lookout.common.*,
+ com.alipay.lookout.common.top,
+ com.alipay.lookout.common.top.*
+
+
+
